@@ -263,7 +263,6 @@ button {
 .navigation.navbar {
   font-family: "Open Sans", sans-serif;
   float: right;
-  padding-top: 35px !important;
   padding: 0;
 }
 
@@ -294,13 +293,26 @@ button {
 }
 
 .header {
-  display: none;
+  display: flex;
   width: 100%;
   padding: 35px 0px 35px 0px;
   background: #000000;
   position: fixed;
   top: 0;
   z-index: 10000;
+}
+
+.container-header {
+  max-width: 1400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+.imagen-palabra-header {
+  max-width: 100px;
+  margin-left: 1rem;
 }
 
 .header.visible {
@@ -422,7 +434,8 @@ button {
 
 .linea-about {
   display: flex;
-  align-items: end;
+  align-items: center;
+  justify-content: center;
 }
 
 .titlepage {
@@ -476,7 +489,6 @@ button {
 
 .about .titlepage {
   text-align: left;
-  margin-top: 41%;
   padding-bottom: 0;
   margin-right: -20px;
 }
@@ -489,12 +501,14 @@ button {
   font-weight: 300;
   color: #2e2d2d;
   font-size: 17px;
-  line-height: 31px;
+  line-height: 40px;
   padding-bottom: 35px;
 }
 
-.about_img {
-  padding: 40px 30px 45px 30px;
+.imagen-sobre-nosotros {
+  max-width: 580px;
+  max-height: 435px;
+  border-radius: 10px;
 }
 
 .about_img::before {
@@ -508,8 +522,14 @@ button {
   border-radius: 5px;
 }
 
+.col-md-7 figure {
+  display: flex;
+  justify-content: center;
+}
+
 .about_img figure {
   margin: 0;
+  display: flex;
 }
 
 .about_img figure img {
@@ -522,9 +542,31 @@ button {
 
 /** service section **/
 
+.container-de-container-servicios{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .servicios-downtittle {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+.container-de-servicios{
+  display: flex;
+  justify-content: center;
+}
+
+.fila-de-servicios{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service_box{
+  margin: 3em;
 }
 
 .service {
@@ -605,7 +647,18 @@ button {
 /** design section **/
 
 .design {
-  padding-top: 80px;
+  margin: 5rem 0; 
+  padding: 5rem 0;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .text_de p {
@@ -880,22 +933,25 @@ button {
 /** contact section **/
 
 .contact {
-  background-color: #c4c4c4;
+  background-color: #ffffff;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: 90px;
+  margin-top: 0px;
   padding: 80px 0;
 }
 
 .contact .titlepage {
+  color: black;
   text-align: left;
+  margin-bottom: 2rem;
 }
 
 .contact .titlepage h2 {
-  color: #fff;
+  color: #000000;
   font-weight: 500;
-  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
 }
 
 .main_form .contactus {
@@ -904,7 +960,7 @@ button {
   margin-bottom: 25px;
   width: 100%;
   height: 54px;
-  background: #fff;
+  background: #c4c4c4;
   color: #989696;
   font-size: 18px;
   font-weight: normal;
@@ -915,7 +971,7 @@ button {
   border: #fff solid 1px;
   margin-bottom: 25px;
   width: 100%;
-  background: #fff;
+  background: #c4c4c4;
   color: #989696;
   font-size: 18px;
   font-weight: normal;
@@ -927,10 +983,10 @@ button {
 .main_form .send_btn {
   font-size: 22px;
   transition: ease-in all 0.5s;
-  background-color: transparent;
+  background-color: #c4c4c4;
   border: #fff solid 3px;
   text-transform: uppercase;
-  color: #fff;
+  color: #989696;
   padding: 7px 0px;
   max-width: 150px;
   width: 100%;
@@ -953,11 +1009,11 @@ button {
 /** end contact section **/
 /** Start icon wpp float**/
 .icon-whatsapp {
-     max-width: 70px;
+  max-width: 70px;
   float: 1;
   position: fixed;
   bottom: 25px;
-  right: 40px;
+  right: 20px;
 }
 /** End icon wpp float**/
 
