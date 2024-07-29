@@ -85,7 +85,7 @@ h1 {
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 40px;
 }
 
 h3 {
@@ -312,7 +312,7 @@ button {
 
 .imagen-palabra-header {
   max-width: 100px;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .header.visible {
@@ -440,13 +440,12 @@ button {
 
 .titlepage {
   text-align: center;
-  padding-bottom: 40px;
 }
 
 .titlepage h2 {
-  font-size: 40px;
+  font-size: 50px;
   color: #1f1f1f;
-  line-height: 45px;
+  line-height: 50px;
   font-weight: bold;
   padding: 0;
 }
@@ -484,13 +483,13 @@ button {
 
 .about {
   background-color: #fff;
-  padding-top: 95px;
+  padding: 100px 0;
+  margin-left: 5rem;
 }
 
 .about .titlepage {
   text-align: left;
   padding-bottom: 0;
-  margin-right: -20px;
 }
 
 .about .titlepage h2 {
@@ -571,9 +570,8 @@ button {
 
 .service {
   background-color: #c4c4c4;
-  padding-top: 80px;
-  margin-top: 7rem;
-  margin-bottom: 7rem;
+  padding-top: 4rem;
+  margin-top: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -585,8 +583,8 @@ button {
 /** gallery  section **/
 
 .gallery {
-  margin-top: 80px;
-  padding-top: 80px;
+  margin-top: 4rem;
+  padding-top: 4rem;
   background-color: #c4c4c4;
   padding-bottom: 50px;
 }
@@ -598,7 +596,7 @@ button {
 .gallery .titlepage p {
   color: #2a2b2a;
   display: block;
-  padding-top: 20px;
+  padding: 3em 0;
 }
 
 .gallery .gallery_img {
@@ -647,7 +645,7 @@ button {
 /** design section **/
 
 .design {
-  margin: 5rem 0; 
+  margin: 5rem 0rem; 
   padding: 5rem 0;
 }
 
@@ -1062,7 +1060,7 @@ ul.social_icon li a {
 
 ul.social_icon li a:hover {
   color: #fff;
-  background: #33f033;
+  background: rg;
 }
 
 .pad_roght2 {
@@ -1108,7 +1106,7 @@ ul.link_menu li a {
 }
 
 ul.link_menu li a:hover {
-  color: #33f033;
+  color: rgb(215, 189, 94);
 }
 
 .bottom_form {
@@ -1147,7 +1145,7 @@ ul.link_menu li a:hover {
 
 .sub_btn:hover {
   transition: ease-in all 0.5s;
-  color: #33f033;
+  color: rgb(215, 189, 94);
 }
 
 #hkh *::placeholder {
@@ -1175,7 +1173,7 @@ ul.link_menu li a:hover {
 }
 
 .copyright a:hover {
-  color: #33f033;
+  color: rgb(215, 189, 94);
 }
 
 /** end footer **/
@@ -1183,5 +1181,5 @@ ul.link_menu li a:hover {
 /** endinner page css **/
 
 .in_page .header {
-  border-bottom: #3fe43d solid 2px;
+  border-bottom: rgb(215, 189, 94) solid 2px;
 }

@@ -97,7 +97,7 @@
     line-height: 73px;
   }
   .titlepage h2 {
-    font-size: 28px;
+    font-size: 40px;
     line-height: 23px;
   }
   .about .titlepage p {
@@ -108,6 +108,9 @@
   }
   .about_img::before {
     height: 77%;
+  }
+  .service_box{
+    margin: 0;
   }
   .service_box h3 {
     font-size: 18px;
@@ -319,17 +322,20 @@
   .service {
     margin-top: 4rem;
     padding-top: 40px;
-    margin-bottom: 1rem;
-    padding-bottom: 40px;
   }
   .mar_top {
     margin-top: 0px;
   }
-  .service_box {
-    margin-bottom: 30px;
+  .service_box{
+    margin: 0;
+    padding-bottom: 2em;
   }
   .design {
-    padding-top: 20px;
+    padding-top: 0px;
+  }
+  .text_de p{
+    margin-bottom: 7em;
+    padding-bottom: 100px;
   }
   .gallery_text {
     height: 264px;
@@ -337,15 +343,14 @@
   }
   .titlepage h2 {
     color: black;
-    font-size: 28px;
-    line-height: 29px;
+    font-size: 40px;
+    line-height: 50px;
   }
   .latest_news .news_box .news_room ul li a {
     padding-right: 3px;
   }
   .banner_design {
     max-width: inherit;
-    padding-bottom: 117px;
   }
   #design .carousel-control-prev,
   #design .carousel-control-next {
