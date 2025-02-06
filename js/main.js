@@ -1,6 +1,3 @@
-// Importamos EmailJS desde el CDN
-import * as emailjs from 'https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js';
-
 // Si necesitas Swiper, también lo importas desde el CDN (asegúrate de tener elementos con clase 'swiper-container' en tu HTML)
 import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs';
 
