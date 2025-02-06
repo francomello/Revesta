@@ -230,9 +230,7 @@
     float: right;
     display: inherit !important;
     padding: 0;
-    width: 100%;
-    padding-top: 0px !important;
-    margin-top: -31px;
+    width: 150%;
   }
   .navigation .navbar-collapse {
     background: #202020;
@@ -333,10 +331,11 @@
   .design {
     padding-top: 0px;
   }
-  .text_de p{
-    margin-bottom: 7em;
-    padding-bottom: 100px;
+
+  .design_img figure {
+    margin-top: 6rem;
   }
+  
   .gallery_text {
     height: 264px;
     margin-bottom: 30px;
@@ -397,7 +396,7 @@
     float: right;
     display: inherit !important;
     padding: 0;
-    width: 100%;
+    width: 150%;
   }
   .navigation .navbar-collapse {
     background: #282828;
