@@ -311,11 +311,13 @@
   }
   figure {
     margin: 0;
-    padding: 10px;
+    padding: 0px;
   }
-  .imagen-sobre-nosotros {
-    max-width: 380px;
-    border-radius: 10px;
+  .video-about{
+    margin:0;
+    display: flex;
+    width: 285px;
+    height: auto;
   }
   .service {
     margin-top: 4rem;
