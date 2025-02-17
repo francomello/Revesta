@@ -314,7 +314,7 @@
     padding: 0px;
   }
   .video-about{
-    margin:0;
+    margin-right: 1em;
     display: flex;
     width: 275px;
     height: auto;

@@ -515,9 +515,10 @@ button {
   padding-bottom: 35px;
 }
 
-.imagen-sobre-nosotros {
-  width: 100%;
-  border-radius: 10px;
+.video-about {
+  width:360px ;
+  line-height-step: 660px;
+  border-radius: 30px;
 }
 
 .about_img::before {
